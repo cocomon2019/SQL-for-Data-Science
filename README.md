@@ -1,25 +1,39 @@
-SQL for Data Science
+# SQL for Data Science
 
-Final Assignment: City of Chicago's Data Portal - Datasets
+# Tool Used:
+Used Jupyter to code and connecting IBM DB2 Warehouse on Cloud Database and run SQL Queries. Load datasets into three tables in a DB2 database. 
 
-Today, we will connect IBM DB2 Warehouse on Cloud database and run SQL queries like a data scientist typically would, where we will use Python and Jupyster notebooks to connect to relational databases to access and analyze data. Here are the introduction to database and SQL statements.
+# Datasets
 
-What is sequeal (SQL)? Sequeal original name is Structured English Query Language and short for SQL. SQL is a language used for relational databases to query or get data out of a database.
+Census Data - Selected socioeconomic indicators in Chicago, 2008-2012
+https://data.cityofchicago.org/Health-Human-Services/Census-Data-Selected-socioeconomic-indicators-in-C/kn9c-c2s2 
 
-What is database? Data is a collection of facts in the form of words, numbers, and even pictures. Data will need to be secure, and it need to be stored and accessed quickly in a database. A database is a repository of data.
+Chicago Public Schools - Project Report Card (2011-2012)
+https://data.cityofchicago.org/Education/Chicago-Public-Schools-Progress-Report-Cards-2011-/9xs2-f89t  
 
-The five simple statements to create a table are:
+Crimes - 2001 to Present 
+https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2 
 
-•	Insert data into the table
-•	Select data from the table
-•	Update data in the table
-•	Delete Data from the table
 
-These statements fall into two different categories:
+# Store datasets in database table
 
-•	Data Definition Language Statements (DDL Statements) used to defien change or drop data.
-•	Data Manipulation Language (DML Statements) used to read and modify data.+
+Load the SQL extension %load_ext sql  and enter the connection string on your DB2 on cloud database.  
 
-Using the SELECT Statement to query the data, which is a data manipulation language statement. With the WHERE clause can be added to the query to filter results or get specific rows of data.
-We used INSERT statement to add new rows to a table. The INSERT statement is one of the data manipulation language statements are used to read and modify data.
-By using the UPDATE statement and the DELETE statement to alter and deleting data in a rational database table. The UPDATE & DELETE statements are one of the data manipulation language statements are used to read and modify data.
+# Five basic SQL commands  
+
+1. INSERT data into the table
+2. SELECT data from the table
+3. UPDATE data from the table
+4. DELETE data from the table
+
+# To Retrieve data by a SELECT statement and adding the WHERE clause to set a condition search
+
+Restricting the result set by using the comparison operator in the WHERE clause and always include a Predicate. 
+
+List of the comparison operators 
+1. Equal to =
+2. Greater than >
+3. Lesser than <
+4. Greater than or equal to >=
+5. Less than or equal to <=
+6. Not equal to <>
